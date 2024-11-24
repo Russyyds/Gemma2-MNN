@@ -9,6 +9,9 @@
 #include <fstream>
 #include <stdlib.h>
 
+/// @brief 
+/// @param llm 
+/// @param prompt_file 
 void benchmark(Llm* llm, std::string prompt_file) {
     std::cout << "prompt file is " << prompt_file << std::endl;
     std::ifstream prompt_fs(prompt_file);
