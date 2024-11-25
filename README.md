@@ -1,4 +1,10 @@
 # Gemma2-MNN
+## Download
+```bash
+git clone https://github.com/Russyyds/Gemma2-MNN.git
+cd Gemma2-MNN/
+git submodule update --init --recursive --depth=1
+```
 ## Build
 ### Linux
 ```bash
